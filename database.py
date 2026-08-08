@@ -3,7 +3,8 @@ from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # MySQL Database URL
-DATABASE_URL = "mysql+pymysql://root:1234@localhost:3306/bike_showroom"
+# DATABASE_URL = "mysql+pymysql://root:1234@localhost:3306/bike_showroom"
+DATABASE_URL = "mysql://avnadmin:AVNS_yDFdtIEWvRL0wV6uxHe@mysql-23b344f4-bike-showroom.k.aivencloud.com:25225/defaultdb?ssl-mode=REQUIRED"
 
 # Create Engine
 engine = create_engine(
